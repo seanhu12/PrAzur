@@ -1,0 +1,66 @@
+.table th, .text-wrap table th, .table td, .text-wrap table td {
+    padding: 0.25rem;
+    vertical-align: middle;
+    border-top: 1px solid rgba(0, 40, 100, 0.12);
+}
+
+.table, .text-wrap table {
+    width: 100%;
+    margin-bottom: 0;
+    color: #495057;
+}
+
+td {
+    border-style : hidden !important;
+    vertical-align: middle;
+}
+
+/* tr {
+    display: ruby-base-container;
+    /* display: inline-grid; */
+} */
+
+.vertical-line {
+    border-left: 1px solid rgba(0, 40, 100, 0.12);
+}
+
+.custom-switch {
+    padding-left: 0rem;
+    display: inline;
+}
+
+.custom-control-inline {
+    display: inline;
+    margin-right: 0rem;
+}
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* .selectize-input div.item + input {
+    overflow: hidden !important;
+} */
+
+.selectize-input div.item + input {
+    display: inline-block;
+}
+
+.custom-control-label {
+    position: relative;
+    margin-bottom: 0;
+    vertical-align: top;
+}
+
+.custom-switch-indicator {
+    margin-bottom: 1px;
+}
+
+.btn-loading {
+    color: transparent !important;
+    pointer-events: none;
+    position: relative;
+    border: 0px;
+    box-shadow: none;
+}
